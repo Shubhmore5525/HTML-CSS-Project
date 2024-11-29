@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button and Textbox Practice with elements</title>
+    <style>
+        .FName,.LName,.Email{
+            font-size: 12px;       
+            padding:10px;
+            margin-right:10px;
+            margin-bottom: 10px;
+            border-radius: 6px;
+            border-color: rgb(198, 194, 194);
+            border-style: solid;
+        }
+        .FName,.Lname{
+            display:inline-block;
+        }
+        .Email{
+            width:342px;   
+            display:block;
+        }
+        .Signup{
+            width:362px;
+            padding:10px;;
+            border-radius: 6px;
+            background-color:rgb(101, 101, 248);
+            color:white;
+            border:none;
+        }
+        p{
+            font-size: 40px;
+        } 
+        .location,.destination{
+            font-size: 14px;       
+            padding:12px;
+            border:none;
+            background-color: rgb(243, 235, 235);
+            width:342px;  
+            margin-bottom: 10px; 
+            display:block;
+        } 
+        .request{
+            width:115px;
+            background-color: black;
+            color:white;
+            padding:10px;
+            margin-right: 14px; 
+        }
+        .schedule{
+            background-color:rgb(243, 235, 235);
+            border:none;
+            width:150px;
+            padding:12px;
+        }
+    </style>
+</head>
+<body>
+    <input class="FName" type="text" placeholder="First name">
+    <input class="LName" type="text" placeholder="Last name">
+    <input class="Email" type="text" placeholder="Email">
+   <button class="Signup">Sign Up</button>
+   <br><br><br> 
+   <p>Request a ride now</p>
+   <input class="location" type="text" placeholder="Enter pickup location">
+   <input class="destination" type="text" placeholder="Enter destination"> 
+   <button class="request">Request now</button>
+   <button class="schedule">Schedule for later</button>   
+</body>
+</html>

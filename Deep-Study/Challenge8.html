@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Types of Elements</title>
+    <!--inline,inline-block,block and use of it-->
+    <style>
+        .d1,.d2,.d3{
+            
+            display:inline-block;
+            width: 205px;
+            padding:10px;
+            border-style: solid;
+            border-color: rgb(239, 239, 239);
+
+        }
+        .I1{
+            width:200px;
+            height:200px;
+            align-items: center;
+            object-fit: cover;
+            object-position: right;
+        }
+        .I1,.p1,.p2,.b1{
+            display:block;
+        }
+        .p1,.p2{
+            line-height: 4px;
+        }
+        .p1{
+            font-weight: bold;
+            font-size:20px;
+        }
+        .p2{
+            font-size:17px;
+            margin-bottom: 20px;
+        }
+        .b1{
+            width:100px;
+            background-color: rgb(84, 84, 255);
+            font-size:12px;
+            color:white;
+            border:none;
+            border-radius: 3px;
+            padding:10px;
+        }
+    
+    </style>
+</head>
+<body>
+   <div class="d1">
+    <img class="I1" src="images/Cat.jpg">
+    <p class="p1">Monty</p>
+    <p class="p2">2 mutual friends</p>
+    <button class="b1">Add Friend</button>
+   </div>
+   <br>
+   <br>
+   <br>
+   <br>
+   <div class="d1">
+    <img class="I1" src="images/Cat.jpg">
+    <p class="p1">Monty</p>
+    <p class="p2">2 mutual friends</p>
+    <button class="b1">Add Friend</button>
+   </div>
+   <div class="d2">
+    <img class="I1" src="images/Cat2.jpeg">
+    <p class="p1">Bella</p>
+    <p class="p2">2 mutual friends</p>
+    <button class="b1">Add Friend</button>
+   </div>
+   <div class="d3">
+    <img class="I1" src="images/Catt.jpeg">
+    <p class="p1">Grey</p>
+    <p class="p2">2 mutual friends</p>
+    <button class="b1">Add Friend</button>
+   </div>
+   
+</body>
+</html>

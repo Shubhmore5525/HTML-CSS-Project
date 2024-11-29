@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .I1{
+            width:200px;
+            border:none;
+            border-radius:10px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+        }
+        .I2{
+            width:200px;
+            height:200px;
+            object-fit: cover;
+            object-position:right;
+            margin-right: 20px;
+            margin-bottom: 20px;
+        }
+        .I3{
+            width:200px;
+            height:200px;
+            object-fit: cover;
+            object-position:right;
+            border-radius:100px;   
+            margin-bottom: 20px;
+        }
+        .searchbar{
+            
+            border-color:rgb(231, 225, 225);
+            border-style:solid;
+            border-radius: 8px;
+            padding:12px;   
+            margin-right: 40px;
+        }
+        .searchbar2{
+            width:450px;
+            border-color:rgb(231, 225, 225);
+            border-style:solid;
+            border-radius: 20px;
+            padding:12px;   
+            transition: box-shadow 0.15s;
+        }
+        .searchbar2:hover{
+            box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+        }
+    </style>
+</head>
+<body>
+    <img class="I1" src="images/Cat.jpg">
+    <img class="I2" src="images/Cat.jpg">
+    <img class="I3" src="images/Cat.jpg"><br>
+    <input class="searchbar" type="text" placeholder="Search">
+    <input class="searchbar2" type="text" placeholder="Search Google or type a URL">
+</body>
+</html>
