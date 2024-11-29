@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Practice with inline css</title>
+</head>
+<body>
+    <div>
+    <div style="background-color:lightblue ;">Div1</div>
+    <div style="background-color:lightpink;">Div2</div>
+    </div>
+    <br>
+    <br>
+    <!--Creating flexbox-->
+    <div style="
+        display:flex;
+        flex-direction: row;
+        ">
+    <div style="background-color:lightblue;">Div1</div>
+    <div style="background-color:lightpink;">Div2</div>
+    </div>
+    <br>
+    <br>
+    <!--Only 1st div width changes it takes width according to size of text-->
+    <div style="
+        display:flex;
+        flex-direction: row;
+        ">
+    <div style="background-color:lightblue;">Div1 text</div>
+    <div style="background-color:lightpink;">Div2</div>
+    </div>
+    <br>
+    <br>
+    <!--Every element takes same height-->
+    <div style="
+        display:flex;
+        flex-direction: row;
+        ">
+    <div style="background-color:lightblue;">Div1 text</div>
+    <div style="background-color:lightpink;">Div2<p>text</p></div>
+    </div>
+    <br>
+    <br>
+    <!--we can adjust width of seperate div and we can add style to specific flexbox by using flex-->
+    <div style="
+            display:flex;
+            flex-direction: row;
+            ">
+        <div style="background-color:lightblue; width:100px;">Div1 text</div>
+            <!-- flex:1 takes full width of page-->
+        <div style="background-color:lightpink; flex:1;">Div2<p>text</p></div>
+    </div>
+        <br>
+        <br>
+    
+    <div style="
+            display:flex;
+            flex-direction: row;
+            ">
+        <div style="background-color:lightblue; width:100px;">Div1 text</div>
+            <!-- flex:1 takes full width of page-->
+        <div style="background-color:lightpink;flex:1;">Div2<p>text</p></div>
+        <div style="background-color:lightblue; flex:2;">Div1 text</div>  
+    </div>
+</body>
+</html>
